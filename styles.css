@@ -169,7 +169,7 @@ body {
 
 /* ---------- P ---------- */
 p {
-    margin: 0.5rem 0 0.5rem 0;
+    margin: 1rem;
 }
 
 p small {
@@ -233,4 +233,19 @@ footer {
 #featured, #contact, footer {
     text-align: center;
 
+}
+
+
+/* ---------- Driver Page ---------- */
+#driverGrid {
+    display: grid;
+    grid-template-columns: 2.5fr 1fr;
+}
+
+#stats {
+    text-align: left;
+}
+
+#key {
+    font-weight: bold;
 }
