@@ -164,6 +164,7 @@ body {
     padding-bottom: 1rem;
     font-family: 'Bitter', serif;
     font-size: 1.1rem;
+    margin: 0 auto;
 }
 
 /* ---------- P ---------- */
@@ -177,16 +178,16 @@ p small {
 
 /* ---------- Main ---------- */
 main {
-    margin: 0.5rem;
+    margin: 1rem;
 }
 
-#redBull {
+.team {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: auto;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: ;
 }
 
-img {
+.roundedCorners {
     border-radius: 15px;
 }
 
