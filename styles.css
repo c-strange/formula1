@@ -96,6 +96,7 @@ h1 {
 h2 {
     font-size: 2rem;
     margin: 1rem 0rem 1rem 0rem;
+    text-align: center;
 }
 
 h3 {
@@ -174,15 +175,34 @@ p small {
     font-size: 0.6rem;
 }
 
+/* ---------- Main ---------- */
+main {
+    margin: 0.5rem;
+}
+
+#redBull {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: auto;
+}
+
+img {
+    border-radius: 15px;
+}
+
 /* ---------- Footer ---------- */
 footer {
-    max-width: 90%;
+    max-width: 95%;
     margin: auto;
-    margin-bottom: 3.5rem;
+    margin-bottom: 0.5rem;
     background-color: var(--aqua);
-    color: var(--white);
+    color: var(--dark-gray);
+    border-radius: 15px;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
 }
 
 #featured, #contact, footer {
     text-align: center;
+    grid-template-columns: ;
 }
