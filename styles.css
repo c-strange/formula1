@@ -67,7 +67,7 @@ table {
 
 html {
     font-size: 20px;
-    min-width: 325px;
+    min-width: 500px;
     max-width: 1280px;
     margin: auto;
     background-color: var(--dark-gray);
@@ -263,17 +263,20 @@ table {
 
 
 /* ------- Extra Small Screens ------ */
-@media screen and (min-width: 325px) {
+@media screen and (min-width: 500px) {
     nav ul {
         text-align: center;
         display: grid;
-        grid-template-columns: repeat(5, 60px);
-        grid-template-rows: repeat(2, 45px);
+        grid-template-columns: repeat(4,75px);
+        grid-template-rows: repeat(2, 50px);
         align-items: center;
         margin: 0 auto;
+        gap: 5px;
     }
-    nav li {
-        font-size: 0.5rem;
+    nav a {
+        font-size: 13px;
+        padding-top: 0.7rem;
+        padding-bottom: 0.7rem;
     }
     .team {
         display: grid;
@@ -290,19 +293,25 @@ table {
     nav ul {
         text-align: center;
         display: grid;
-        grid-template-columns: repeat(10, 110px);
+        grid-template-columns: repeat(5,120px);
+        grid-template-rows: repeat(2, 50px);
         align-items: center;
         margin: 0 auto;
+        gap: 5px;
+    }
+    nav a {
+        font-size: 0.75rem;
+        padding-top: 0.7rem;
+        padding-bottom: 0.7rem;
     }
     body {
-        max-width: 95%;
+        max-width: 90%;
     }
     .team {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
         justify-items: center;
         gap: 0.5rem;
-        width: 70%;
         margin: 0 auto;
     }
     div a {
@@ -314,5 +323,19 @@ table {
     .firstColumn {
         grid-column: 1 / 2;
         grid-row: 2 / 3;
+    }
+}
+
+
+
+
+/* ------- Large Screens ------ */
+@media screen and (min-width: 128px) {
+    nav ul {
+    text-align: center;
+    display: grid;
+    grid-template-columns: repeat(10, 110px);
+    align-items: center;
+    margin: 0 auto;
     }
 }
