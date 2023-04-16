@@ -72,16 +72,6 @@ html {
     background-color: var(--dark-gray);
 }
 
-/* ---------- Body ---------- */
-body {
-    background-color: var(--white);
-    margin: 1rem;
-    border-radius: 10px;
-    padding-bottom: 1rem;
-    font-family: 'Bitter', serif;
-    font-size: 1.1rem;
-}
-
 
 /* ---------- Header ---------- */
 header {
@@ -135,7 +125,7 @@ nav h2 {
 nav ul {
     text-align: center;
     display: grid;
-    grid-template-columns: repeat(10, 1fr);
+    grid-template-columns: repeat(10, 110px);
     align-items: center;
 }
 
@@ -146,7 +136,7 @@ nav li {
 nav a {
     text-decoration: none;
     display: block;
-    font-size: 1.5rem;
+    font-size: 0.75rem;
     background-color: var(--orange);
     color: var(--white);
     padding-top: 0.5rem;
@@ -163,4 +153,36 @@ nav a:hover {
 
 nav a:focus {
     border: solid var(--black);
+}
+
+/* ---------- Body ---------- */
+body {
+    background-color: var(--white);
+    margin: 1rem;
+    border-radius: 10px;
+    padding-bottom: 1rem;
+    font-family: 'Bitter', serif;
+    font-size: 1.1rem;
+}
+
+/* ---------- P ---------- */
+p {
+    margin: 0.5rem 0 0.5rem 0;
+}
+
+p small {
+    font-size: 0.6rem;
+}
+
+/* ---------- Footer ---------- */
+footer {
+    max-width: 90%;
+    margin: auto;
+    margin-bottom: 3.5rem;
+    background-color: var(--aqua);
+    color: var(--white);
+}
+
+#featured, #contact, footer {
+    text-align: center;
 }
