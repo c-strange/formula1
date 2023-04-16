@@ -72,6 +72,23 @@ html {
     background-color: var(--dark-gray);
 }
 
+/* ---------- Body ---------- */
+body {
+    background-color: var(--white);
+    margin: 1rem;
+    border-radius: 10px;
+    padding-bottom: 1rem;
+}
+
+
+/* ---------- Header ---------- */
+header {
+    padding: 2rem;
+    color: var(--black);
+    display: grid;
+    grid-template-columns: repeat(auto-fill);
+}
+
 h1, h2, h3, h4, h5 {
     font-family: 'Ubuntu', sans-serif;
 }
