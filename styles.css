@@ -181,6 +181,17 @@ main {
     margin: 1rem;
 }
 
+#intro {
+    max-width: 95%;
+    margin: auto;
+    margin-bottom: 0.5rem;
+    background-color: var(--aqua);
+    color: var(--dark-gray);
+    border-radius: 15px;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+}
+
 .team {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
