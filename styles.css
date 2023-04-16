@@ -184,6 +184,12 @@ main {
 .team {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
+    justify-items: center;
+    gap: 0.5rem;
+}
+
+div a {
+    margin: -0.5rem;
 }
 
 .secondColumn {
