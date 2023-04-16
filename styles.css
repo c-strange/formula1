@@ -287,6 +287,14 @@ table {
         width: 90%;
         margin: 0 auto;
     }
+
+    #driverGrid {
+        display: grid;
+        grid-template-columns: 1fr;
+        max-width: 90%;
+        margin: 0 auto;
+        justify-items: center;
+    }
 }
 
 /* ------- Medium Screens ------ */
@@ -306,7 +314,7 @@ table {
         padding-bottom: 0.7rem;
     }
     body {
-        max-width: 90%;
+        max-width: 95%;
     }
     .team {
         display: grid;
