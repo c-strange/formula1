@@ -128,6 +128,7 @@ nav ul {
     display: grid;
     grid-template-columns: repeat(10, 110px);
     align-items: center;
+    margin: 0 auto;
 }
 
 nav li {
@@ -239,13 +240,30 @@ footer {
 /* ---------- Driver Page ---------- */
 #driverGrid {
     display: grid;
-    grid-template-columns: 2.5fr 1fr;
+    grid-template-columns: 2fr 1.5fr;
+    max-width: 90%;
+    margin: 0 auto;
+    justify-items: center;
 }
 
 #stats {
     text-align: left;
 }
 
-#key {
+.key {
     font-weight: bold;
+}
+
+table {
+    border-collapse: separate;
+    border-spacing: 30px 20px;
+}
+
+#photos {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    justify-items: center;
+    margin: 0 auto;
+    gap: 0.5rem;
 }
