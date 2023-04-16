@@ -67,7 +67,8 @@ table {
 
 html {
     font-size: 20px;
-    width: 1280px;
+    min-width: 325px;
+    max-width: 1280px;
     margin: auto;
     background-color: var(--dark-gray);
 }
@@ -304,4 +305,17 @@ table {
     nav li {
         font-size: 0.5rem;
     }
+    .team {
+        display: grid;
+        grid-template-columns: 1fr;
+        justify-items: center;
+        gap: 0.5rem;
+        width: 90%;
+        margin: 0 auto;
+    }
 }
+
+/* ------- Small Screens ------ 
+@media screen and (min-width: 465px) {
+    
+}*/
