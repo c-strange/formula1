@@ -78,6 +78,8 @@ body {
     margin: 1rem;
     border-radius: 10px;
     padding-bottom: 1rem;
+    font-family: 'Bitter', serif;
+    font-size: 1.1rem;
 }
 
 
@@ -85,11 +87,80 @@ body {
 header {
     padding: 2rem;
     color: var(--black);
-    display: grid;
-    grid-template-columns: repeat(auto-fill);
 }
 
+
+/* ---------- H_'s ---------- */
 h1, h2, h3, h4, h5 {
     font-family: 'Ubuntu', sans-serif;
+    font-weight: bold;
 }
 
+h1 {
+    font-size: 2.5rem;
+    margin: 0 0 1.5rem 0.5rem;
+    text-align: center;
+    padding-top: 1rem;
+}
+
+h2 {
+    font-size: 2rem;
+    margin: 1rem 0rem 1rem 0rem;
+}
+
+h3 {
+    font-size: 1.5rem;
+    margin: 2.5rem 0rem 1rem 0rem;
+}
+
+h4 {
+    font-size: 1.3rem;
+    margin: 1rem 0rem 1rem 0rem;
+}
+
+h5 {
+    font-size: 1.2rem;
+    margin: 2.5rem 0rem 1rem 0rem;
+}
+
+/* ---------- Navigation ---------- */
+nav {
+    display: grid;
+}
+
+nav h2 {
+    display: none;
+}
+
+nav ul {
+    text-align: center;
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+    align-items: center;
+}
+
+nav li {
+    list-style-type: none;
+}
+
+nav a {
+    text-decoration: none;
+    display: block;
+    font-size: 1.5rem;
+    background-color: var(--orange);
+    color: var(--white);
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    border-radius: 5px;
+    margin: 5px;
+}
+
+nav a:hover {
+    border: solid var(--black);
+    font-weight: bold;
+    font-style: italic;
+}
+
+nav a:focus {
+    border: solid var(--black);
+}
