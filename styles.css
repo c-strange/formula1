@@ -186,6 +186,8 @@ main {
     grid-template-columns: repeat(2, 1fr);
     justify-items: center;
     gap: 0.5rem;
+    width: 70%;
+    margin: 0 auto;
 }
 
 div a {
@@ -219,5 +221,5 @@ footer {
 
 #featured, #contact, footer {
     text-align: center;
-    grid-template-columns: ;
+
 }
