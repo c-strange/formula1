@@ -261,9 +261,14 @@ table {
 
 #photos {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 600px 600px;
     grid-template-rows: 1fr 1fr;
     justify-items: center;
+    justify-content: center;
     margin: 0 auto;
     gap: 0.5rem;
+}
+
+#photos img {
+    max-width: 100%;
 }
