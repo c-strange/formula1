@@ -80,6 +80,11 @@ header {
     color: var(--black);
 }
 
+header a {
+    text-decoration: none;
+    color: var(--orange);
+}
+
 
 /* ---------- H_'s ---------- */
 h1, h2, h3, h4, h5 {
