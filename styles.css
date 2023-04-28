@@ -370,13 +370,4 @@ table {
     margin: 0 auto;
     }
 
-    #photos {
-        display: grid;
-        grid-template-columns: 600px 600px;
-        grid-template-rows: 1fr 1fr;
-        justify-items: center;
-        justify-content: center;
-        margin: 0 auto;
-        gap: 0.5rem;
-    }
 }
