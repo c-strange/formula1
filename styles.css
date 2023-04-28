@@ -246,19 +246,6 @@ table {
     border-spacing: 30px 20px;
 }
 
-#photos {
-    display: grid;
-    grid-template-columns: 600px 600px;
-    grid-template-rows: 1fr 1fr;
-    justify-items: center;
-    justify-content: center;
-    margin: 0 auto;
-    gap: 0.5rem;
-}
-
-#photos img {
-    max-width: 100%;
-}
 
 
 
@@ -295,6 +282,21 @@ table {
         margin: 0 auto;
         justify-items: center;
     }
+
+    #photos {
+        display: grid;
+        grid-template-columns: 0.95fr;
+        grid-template-rows: 1fr;
+        justify-items: center;
+        justify-content: center;
+        margin: 0 auto;
+        gap: 0.5rem;
+    }
+
+    #photos img {
+        height: 100%;
+        width: 100%;
+    }
 }
 
 /* ------- Medium Screens ------ */
@@ -322,6 +324,15 @@ table {
         justify-items: center;
         margin: 0 auto;
     }
+
+    #driverGrid {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        max-width: 100%;
+        margin: 0 auto;
+        justify-items: center;
+    }
+
     div a {
         margin: -0.5rem;
     }
@@ -331,6 +342,16 @@ table {
     .firstColumn {
         grid-column: 1 / 2;
         grid-row: 2 / 3;
+    }
+
+    #photos {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr;
+        justify-items: center;
+        justify-content: center;
+        margin: 0 auto;
+        gap: 0.5rem;
     }
 }
 
@@ -342,5 +363,15 @@ table {
     grid-template-columns: repeat(10, 110px);
     align-items: center;
     margin: 0 auto;
+    }
+
+    #photos {
+        display: grid;
+        grid-template-columns: 600px 600px;
+        grid-template-rows: 1fr 1fr;
+        justify-items: center;
+        justify-content: center;
+        margin: 0 auto;
+        gap: 0.5rem;
     }
 }
