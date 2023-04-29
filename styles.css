@@ -255,7 +255,7 @@ table {
 
 
 /* ------- Extra Small Screens ------ */
-@media screen and (min-width: 500px) {
+@media screen and (min-width: 400px) {
     nav ul {
         text-align: center;
         display: grid;
